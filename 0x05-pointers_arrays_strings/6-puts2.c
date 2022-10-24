@@ -3,8 +3,8 @@
 /**
  * puts2 - prints strings
  * @str: A pointer to int that will be changed
- * 
- * Return: return void for the correctness
+ *
+ * Return: return void for the correctnes
  */
 void puts2(char *str)
 {
