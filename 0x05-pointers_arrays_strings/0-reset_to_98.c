@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * 0-reset_to_98.c - takes pointer input
+ * reset_to_98.c - takes pointer input
+ *@n: input argument of the function
  *
  * Return 0
  */
