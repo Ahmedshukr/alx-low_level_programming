@@ -21,7 +21,7 @@ char *_strstr(char *haystack, char *needle)
 			word++;
 		}
 
-		if (*two == '\0')
+		if (*word == '\0')
 			return (haystack);
 	}
 
