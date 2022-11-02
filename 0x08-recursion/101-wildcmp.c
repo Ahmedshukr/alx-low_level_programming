@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * wildcmp - 
+ * wildcmp - compares two strings
  * @s1: the input argument
  * @s2: input argumnet
  * Return: 0
