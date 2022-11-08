@@ -3,14 +3,15 @@
 #include "main.h"
 
 /**
- * _strdup - returns a pointer to a newly allocated space in memory
- * @str: pointer to string
- * Return: Always 0
+ * _strdup - duplicate to new memory space location
+ * @str: char
+ * Return: 0
  */
+
 char *_strdup(char *str)
 {
 	int i, end;
-	char *arr;
+	char *array;
 
 	if (str == NULL)
 		return (NULL);
@@ -20,12 +21,12 @@ char *_strdup(char *str)
 	}
 
 	end += 1;
-	arr = malloc(sizeof(char) * end);
+	array = malloc(sizeof(char) * end);
 
 	for (i = 0; i < end; i++)
-		arr[i] = str[i];
+		array[i] = str[i];
 
-	if (arr == NULL)
+	if (array == NULL)
 		return (NULL);
-	return (arr);
+	return (array);
 }
