@@ -22,8 +22,7 @@ int _strlen(char *str)
 }
 
 /**
- * _strcopy - Copies a string pointed to by src, including the
- *            terminating null byte, to a buffer pointed to by dest.
+ * _strcopy - Copies a string pointed to by src
  * @dest: The buffer storing the string copy.
  * @src: The source string.
  *
@@ -31,12 +30,12 @@ int _strlen(char *str)
  */
 char *_strcopy(char *dest, char *src)
 {
-	int index = 0;
+	int i = 0;
 
-	for (index = 0; src[index]; index++)
-		dest[index] = src[index];
+	for (i = 0; src[i]; i++)
+		dest[i] = src[i];
 
-	dest[index] = '\0';
+	dest[i] = '\0';
 
 	return (dest);
 }
