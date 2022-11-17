@@ -23,3 +23,5 @@
 
 ### Write a function that prints anything. 
  * Prototype: void print_all(const char * const format, ...);
+ * where format is a list of types of arguments passed to the function
+   - c: char
