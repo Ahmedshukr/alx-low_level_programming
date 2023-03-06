@@ -10,7 +10,7 @@
  * Prototype: unsigned long int hash_djb2(const unsigned char *str);
  * You are allowed to copy and paste the function from this page
 
-### Write a function that gives you the index of a key.
+### 2. Write a function that gives you the index of a key.
 
   *  Prototype: unsigned long int key_index(const unsigned char *key, unsigned long int size);
         where key is the key
