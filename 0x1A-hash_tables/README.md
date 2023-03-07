@@ -19,3 +19,4 @@
   *  Returns the index at which the key/value pair should be stored in the array of the hash table
   *  You will have to use this hash function for all the next tasks
 
+#
