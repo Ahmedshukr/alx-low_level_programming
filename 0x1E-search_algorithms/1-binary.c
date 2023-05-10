@@ -34,3 +34,6 @@ int binary_search(int *array, size_t size, int value)
 		else
 			left = i + 1;
 	}
+
+	return (-1);
+}
